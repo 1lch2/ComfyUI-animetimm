@@ -1,0 +1,15 @@
+[project]
+name = "animetimm"
+description = ""
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["dghs-imgutils>=0.17.0", "huggingface_hub", "pandas", "timm"]
+
+[project.urls]
+Repository = "https://github.com/MakkiShizu/ComfyUI-animetimm"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "makki-shizu"
+DisplayName = "ComfyUI-animetimm"
+Icon = "https://cdn-avatars.huggingface.co/v1/production/uploads/6391f19aba933dc6fd14c618/DjYnn3Z3k8414ym7VeYc3.jpeg"

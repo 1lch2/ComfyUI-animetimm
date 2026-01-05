@@ -1,9 +1,9 @@
 [project]
 name = "animetimm"
 description = ""
-version = "1.0.0"
+version = "1.0.1"
 license = {file = "LICENSE"}
-dependencies = ["dghs-imgutils>=0.17.0", "huggingface_hub", "pandas", "timm"]
+dependencies = ["dghs-imgutils>=0.17.0", "huggingface_hub", "timm>=1.0.16", "pandas"]
 
 [project.urls]
 Repository = "https://github.com/MakkiShizu/ComfyUI-animetimm"
